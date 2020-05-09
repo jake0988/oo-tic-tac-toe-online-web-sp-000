@@ -320,7 +320,7 @@ array_two == [] ? false : array_two
      puts "Cat's Game!"
 
    end
-   turn
+   
 
    if over?
 
