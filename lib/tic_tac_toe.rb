@@ -310,16 +310,18 @@ array_two == [] ? false : array_two
        puts "Cat's Game!"
        return
      end
-      i += 1
-      turn
-    end
-   if won?
-     puts "Congratulations #{current_player}!"
-
-   elsif draw?
-     puts "Cat's Game!"
-
-   end
+ #      i += 1
+ #      turn
+ #    end
+ #   if won?
+ #     puts "Congratulations #{current_player}!"
+ #
+ #   elsif draw?
+ #     puts "Cat's Game!"
+ #
+ #   end
+ # end
+ end
 
 
   #  if over?
@@ -333,6 +335,3 @@ array_two == [] ? false : array_two
   #  else
   #    play
   # end
-
- end
- end
