@@ -289,24 +289,26 @@ array_two == [] ? false : array_two
  end
 
  def play
-   board = @board
  i = 0
    if won?
      puts "Congratulations #{winner(board)}!"
+     return
    end
    if draw?
      puts "Cat's Game!"
+     return
    end
 
    turn
 
-   while i < 9
-     board = @board
+   while i < 8
      if won?
        winner
        puts "Congratulations #{winner(board)}!"
-     elsif draw?(board)
+       return
+     elsif draw?
        puts "Cat's Game!"
+       return
      end
       i += 1
       turn
@@ -321,7 +323,7 @@ array_two == [] ? false : array_two
    turn
 
    if over?
-      board
+
 
    elsif won?
 
