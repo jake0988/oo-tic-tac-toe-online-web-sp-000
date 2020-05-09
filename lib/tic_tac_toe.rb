@@ -310,9 +310,9 @@ array_two == [] ? false : array_two
        puts "Cat's Game!"
        return
      end
- #      i += 1
- #      turn
- #    end
+      i += 1
+      turn
+    end
  #   if won?
  #     puts "Congratulations #{current_player}!"
  #
